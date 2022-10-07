@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This is a new test on NodeJS, Apollo and Prisma backend",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "apollo",
+    "prisma",
+    "backend"
+  ],
+  "author": "Zizur",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.4.0",
+    "apollo-server": "^3.10.2",
+    "graphql": "^16.6.0"
+  },
+  "devDependencies": {
+    "prisma": "^4.4.0"
+  }
+}
